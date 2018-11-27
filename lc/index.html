@@ -420,5 +420,14 @@
         </div>
     </div>
 
+    <script>
+        $('html').load(function(){goBot()});
+
+        var goBot = function () 
+        {
+            var scrollHeight = $('#light').prop("scrollHeight");
+            $('#light').animate({scrollTop:scrollHeight}, 400);
+        }
+    </script>
 </body>
 </html>
