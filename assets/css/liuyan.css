@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,.aui-content{
+    height: 100%;
+}
+ul, li {
+    list-style: none;
+}
+
+.black_overlay {
+    display: block;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+.white_content {
+    display: block;
+    position: fixed;
+    bottom: 3em;
+    width: 100%;
+    /*height: 85%;*/
+    height: 100%;
+    /*background-color: #c1bdbd;*/
+    z-index: 1002;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.tcw {
+    width: 98%;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+#dituContent textarea {
+    color: #868686;
+    width: 94%;
+    padding: 2%;
+    height: 322px;
+    /*border: 1px solid #b6b6b6;*/
+    border-radius: 2px;
+    line-height: 18px;
+    margin: 2%;
+}
+
+.huati_btn2 {
+    width: 30%;
+    height: 32px;
+    background: #34a0f0;
+    border-radius: 3px;
+    font: 14px/32px "微软雅黑";
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 1% 35%;
+    margin-bottom:30px;
+}
+
+.huati_btn3 {
+    width: 30%;
+    height: 32px;
+    background: #EB5E5E;
+    border-radius: 3px;
+    font: 14px/32px "微软雅黑";
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 1% 35%;
+    margin-bottom: 30px;
+}
+
+.im {
+    overflow: hidden;
+    padding: 3% 0 3% 0;
+    margin-top: 0px
+}
+/*改*/
+.im span {
+    width: 33%;
+    float: left;
+    text-align: center;
+    vertical-align: absmiddle
+}
+
+.im input {
+    vertical-align: middle;
+    margin: -3px 5px 0 0
+}
+
+.huati_btn {
+    width: 175px;
+    height: 32px;
+    background: #34a0f0;
+    border-radius: 3px;
+    font: 14px/32px "微软雅黑";
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.huati {
+    height: 40px;
+    padding-top: 9px;
+    border-bottom: 1px dashed #cecece
+}
+
+
+.text_w {
+    color: #282828;
+    font-size: 14px;
+    padding: 0 2%;
+    height: 30px;
+}
+
+.input {
+    padding: 0 2%;
+}
+
+.input input {
+    color: #868686;
+    width: 96%;
+    padding: 0 2%;
+    height: 32px;
+    border: 1px solid #b6b6b6;
+    border-radius: 2px;
+}
